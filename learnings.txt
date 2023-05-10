@@ -1,0 +1,11 @@
+
+# find the service by port number
+netstat -ano | findStr "3306"
+
+# service found from 1st step
+tasklist /fi "pid eq 6400"
+
+# kill the pid
+ taskkill /f /pid 6400
+
+###########################################
