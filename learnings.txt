@@ -1,3 +1,4 @@
+Run Command Prompt has Admin
 
 # find the service by port number
 netstat -ano | findStr "3306"
